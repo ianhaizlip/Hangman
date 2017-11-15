@@ -1,5 +1,40 @@
+body {
+	background-image: url("https://img00.deviantart.net/ff1a/i/2013/198/a/3/fortified_medieval_town_by_solon_deviant-d1lmd7b.jpg");
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-size: 22px;
+	color: #000080;
+}
+
 .image {
-	width:80%;
+	width:90%;
 	position: relative;
-	left: 10%;
+	left: 5%;
+	padding: 15px 0 15px 0;
+
+}
+
+/*.background {
+	background-color: #556B2F;
+}*/
+
+.paper {
+	margin: 0px 0 30px 0;
+	padding: 30px 0 30px 0;
+	background-image: url("http://www.powerpointhintergrund.com/uploads/2017/05/old-paper-background-19-360691-high-definition-wallpapers--2.jpeg");
+}
+
+.title {
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	background-image: url("http://www.powerpointhintergrund.com/uploads/2017/05/old-paper-background-19-360691-high-definition-wallpapers--2.jpeg");
+
+}
+
+.results {
+	padding: 15px;
+}
+
+.extramargin {
+	margin-top: 25px
 }

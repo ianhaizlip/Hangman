@@ -69,15 +69,7 @@ window.onclick = function(event) {
 		
 
 
-		if ((userGuess === "a") || (userGuess === "b") || (userGuess === "c") || 
-			(userGuess === "d") || (userGuess === "e") || (userGuess === "f") || 
-			(userGuess === "g") || (userGuess === "h") || (userGuess === "i") || 
-			(userGuess === "j") || (userGuess === "k") || (userGuess === "l") || 
-			(userGuess === "m") || (userGuess === "n") || (userGuess === "o") || 
-			(userGuess === "p") || (userGuess === "q") || (userGuess === "r") || 
-			(userGuess === "s") || (userGuess === "t") || (userGuess === "u") || 
-			(userGuess === "v") || (userGuess === "w") || (userGuess === "x") || 
-			(userGuess === "y") || (userGuess === "z")) 
+		if (96<userGuess.charCodeAt(0) && userGuess.charCodeAt(0)<123) 
 		{
 //game logic
 			if (computerGuess.includes(userGuess)) 
